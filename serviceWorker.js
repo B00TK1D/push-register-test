@@ -1,3 +1,3 @@
 self.addEventListener('push', function (event) {
-    console.log(event);
+    console.log(event.data);
 });
