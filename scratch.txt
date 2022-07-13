@@ -1,3 +1,3 @@
 curl -X POST 'https://uscg-web-fun-facts-w7vmh474ha-uc.a.run.app/api/register' \
   -H 'content-type: application/json' \
-  --data-raw '{"endpoint":"https://fcm.googleapis.com/fcm/send/fCtUoxOrCMg:APA91bEW_uimpwt0DhJfdhtI2lGHWAIxJlYfmNmpBm1xx_XtFWXlfaqXO1khu2KYlROQa4t7QkwkDVG1t8vaLWQ13_LQR-DymVaNoJoz_LZjFvpqudL4ZXYGuh6zFZC0BOv0-mXZZmti","expirationTime":null,"keys":{"p256dh":"BKRQqMWuSHv7Kog-PkBPCbu8AnfCTB6-Wdz6n2DipqivTOm3PgVRQOkDDgdVzmK4eoDPkZUnIH6DGY0mglAaObQ","auth":"NqmcROu9KtZ-bgaTQ_DlOQ"},"contentEncoding":"aes128gcm"}'
+  --data-raw '{"endpoint":"https://fcm.googleapis.com/fcm/send/eqQzULMkVwY:APA91bHRROcxMaNkGGSWqZvyJKYMYjyYIPO6Qc_hiXvQ1kkRxB1qGX_M5il806gUDcNPcxxv2T3ih9t_lFpgyJ8dXvdmXrsGnese1UfaBfuji2b1QQpMN2pnRfIm9kI07_Xo3qhgJjxO","expirationTime":null,"keys":{"p256dh":"BCS7g0FgpNeKjN_YZ7i42DLZqMM6s3sAJ6msHtajZkx9GJjVFr2nqcoLe_wZrCN-c49v86xyH9o5ROILvMcXxfY","auth":"3sxngTLAXTVANUBl_S18FQ"},"contentEncoding":"aes128gcm"}'
