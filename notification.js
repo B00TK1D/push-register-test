@@ -182,10 +182,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const contentEncoding = (PushManager.supportedContentEncodings || ['aesgcm'])[0];
 
       const jsonSubscription = subscription.toJSON();
-      return fetch('https://uscg-web-fun-facts-w7vmh474ha-uc.a.run.app/api/register', {
-        method: 'POST',
-        body: JSON.stringify(Object.assign(jsonSubscription, { contentEncoding })),
-      });
+      //return fetch('https://uscg-web-fun-facts-w7vmh474ha-uc.a.run.app/api/register', {
+      //  method: 'POST',
+      //  body: JSON.stringify(Object.assign(jsonSubscription, { contentEncoding })),
+      //});
+      console.log(JSON.stringify(Object.assign(jsonSubscription, { contentEncoding })));
     }
 
     function continueRedirect() {
